@@ -1,0 +1,122 @@
+body {
+    background-color: #f5f1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #input {
+    height: 40px;
+    width: 250px;
+    border: 1px solid #b0bec5;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #28a745; 
+    color: white;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 350px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .task-completed .task-text {
+    text-decoration: line-through;
+    color: #9e9e9e;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .task-buttons button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 60px;
+    height: 40px;
+  }
+  
+  
+  .task-buttons .edit-btn {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .task-buttons .edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .task-buttons .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .task-buttons .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .checkbox {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  
