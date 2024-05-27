@@ -8,5 +8,6 @@
 
 ## Editing and Deleting/ Striking out Completed Tasks
 
-<img width="1792" alt="image" src="https://github.com/Raviteja654321/TodoList-React/assets/94986564/730af3d6-9548-4f24-8e8c-f22a2cd1fdb8">
+<img width="1791" alt="image" src="https://github.com/Raviteja654321/TodoList-React/assets/94986564/290c8fcd-cd38-4a2e-b950-d2bc199c8d5d">
+
 
